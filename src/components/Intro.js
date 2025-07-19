@@ -28,25 +28,30 @@ class Intro extends React.Component {
         <FractalTree></FractalTree>
         <Typist avgTypingDelay={120}>
           <span className="intro-title">
-            {"hi, "}
-            <span className="intro-name">{"gazi"}</span>
-            {" here."}
+            {"Hi, I’m "}
+            <span className="intro-name">{"Luona."}</span>
           </span>
         </Typist>
         <FadeInSection>
-          <div className="intro-subtitle">I create stuff sometimes.</div>
+          <div className="intro-subtitle">
+            I’m a Ph.D. candidate in Chemistry at Emory University, where I design and study DNA-based molecular machines. My work explores how synthetic motors can be programmed to sense and transport molecules at the nanoscale—pushing the boundaries of bioengineering and diagnostics.
+          </div>
           <div className="intro-desc">
-            I'm a software engineer from Toronto, Canada. I'm fascinated by
-            large-scale, high-impact products and contributed to major feature launches in
-            industry-leading services as well as apps that have 100M+ installs.
+            I’ve conducted research across three continents, developed sensors for environmental DNA and viruses, and presented at international conferences. I also write code to track single molecules, and I love blending chemistry, computation, and creativity to solve complex problems.
           </div>
           <a
             href="mailto:gazijarin@gmail.com"
             className="intro-contact"
           >
             <EmailRoundedIcon></EmailRoundedIcon>
-            {" Say hi!"}
+            {" luona.zhang@emory.edu"}
           </a>
+          <div className="intro-contact">
+            Office Address: 1515 Dickey Drive, Emerson Hall E470, Atlanta, GA 30322, United States
+          </div>
+          <div className="intro-contact">
+            Phone: +1 (517)-763-1357
+          </div>
         </FadeInSection>
       </div>
     );
